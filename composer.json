@@ -1,6 +1,7 @@
 {
     "name": "sitam/SitamPrueba-module",
     "description": "Prueba de un modulo para sitam",
+    "keywords": ["Gobierno", "Tamaulipas", "Sitam"],
     "type": "laravel-module",
     "require": {
         "joshbrw/laravel-module-installer":"*"
