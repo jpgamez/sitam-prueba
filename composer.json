@@ -1,0 +1,29 @@
+{
+    "name": "sitam/SitamPrueba-module",
+    "description": "Prueba de un modulo para sitam",
+    "type": "laravel-module",
+    "require": {
+        "joshbrw/laravel-module-installer":"*"
+    },
+    "authors": [
+        {
+            "name": "Javier Peña Gámez",
+            "email": "javer.pena@tam.gob.mx"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SitamPrueba\\Providers\\SitamPruebaServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SitamPrueba\\": ""
+        }
+    }
+}

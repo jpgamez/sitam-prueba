@@ -1,0 +1,16 @@
+{
+    "name": "SitamPrueba",
+    "alias": "sitamprueba",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SitamPrueba\\Providers\\SitamPruebaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
